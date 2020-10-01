@@ -10,12 +10,12 @@ body {
     background-attachment: fixed
 }
 
-article {
+article { /*DONE*/
     display: flex;
     flex-wrap: wrap
 }
 
-article section {
+article section { /*DONE*/
     flex-grow: 1;
     flex-basis: 45%;
     border: 1px silver solid;
@@ -29,12 +29,12 @@ article section {
     box-sizing: border-box;
 }
 
-article section#selling-points {
+article section#selling-points { /*DONE*/
     flex-grow: 2;
     flex-basis: 100%
 }
 
-article code {
+article code { /*DONE*/
     background: #000;
     border: 1px solid #ddd;
     color: #666;
@@ -50,19 +50,19 @@ article code {
     word-wrap: break-word
 }
 
-article code.before {
+article code.before { /*DONE*/
     float: left;
     width: 40%
 }
 
-article code.after {
+article code.after { /*DONE*/
     float: right;
     width: 40%
 }
 
 h1,
 h2,
-h6 {
+h6 { /*DONE*/
     color: #6B8EFF
 }
 

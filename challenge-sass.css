@@ -1,0 +1,97 @@
+body {
+  font: 100% "Space Mono", monospace;
+  color: #2748B3;
+  margin: 0px;
+  padding: 0px;
+  background-color: #000;
+}
+
+:target {
+  color: #df3434;
+  background-color: #0f2432;
+  font: 100% "Space Mono", monospace;
+  margin: 0px;
+  padding: 0px;
+}
+
+article {
+  display: flex;
+  flex-wrap: wrap;
+}
+article section {
+  flex-grow: 1;
+  flex-basis: 45%;
+  border: 1px silver solid;
+  -webkit-box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
+  box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
+  padding: 16px;
+  margin: 16px;
+  clear: both;
+  overflow: auto;
+  box-sizing: border-box;
+}
+article #selling-points {
+  flex-grow: 2;
+  flex-basis: 100%;
+}
+article code {
+  background: #000;
+  border: 1px solid #ddd;
+  color: #666;
+  page-break-inside: avoid;
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 16px 8px;
+  display: block;
+  word-wrap: break-word;
+}
+article code .before {
+  float: left;
+  width: 40%;
+}
+article code .after {
+  float: right;
+  width: 40%;
+}
+
+h1, h6 {
+  color: #6B8EFF;
+  text-align: center;
+}
+
+h2 {
+  color: #6B8EFF;
+}
+
+h6 {
+  font-size: 2em;
+  padding: 32px;
+  margin-bottom: 0px;
+}
+
+.message, .warning, .error, .success {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #2748B3;
+  background-color: #000;
+  width: 100%;
+}
+
+.success {
+  background-color: green;
+}
+
+.error {
+  background-color: red;
+}
+
+.warning {
+  background-color: orange;
+}
+
+/*# sourceMappingURL=challenge-sass.css.map */
